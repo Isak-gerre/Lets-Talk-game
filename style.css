@@ -51,6 +51,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
 @keyframes opacityIN {
   0% {
@@ -68,7 +70,7 @@ body {
     opacity: 0;
   }
 }
-#close {
+.close {
   position: absolute;
   top: 5%;
   left: 93%;
@@ -91,4 +93,18 @@ body {
   width: 55ch;
   line-height: 2.3ch;
   text-align: center;
+}
+#images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  height: 90%;
+  gap: 5px;
+}
+.image {
+  background-size: cover;
+  background-position: center;
+}
+#citat > p {
+  margin: 20px;
 }
