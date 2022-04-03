@@ -145,6 +145,10 @@ const questions = data.questions;
 let arrayOfSeenQ = [];
 const board = document.getElementById("board");
 
+if (!localStorage.getItem("test")) {
+  localStorage.setItem("seenQ", []);
+}
+
 const bilder = [
   "inget.png",
   "läsa.jpg",
