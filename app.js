@@ -225,7 +225,7 @@ function createCard(question, index) {
 }
 function boldString(str, substr) {
   var strRegExp = new RegExp(substr, "g");
-  return str.replace(strRegExp, "<br><b><i>" + substr + "</i></b></br>");
+  return str.replace(strRegExp, "<b><i>" + substr + "</i></b>");
 }
 function createOverlay(questionText, index = "0") {
   let button = questionText == "Rendez-vous" && index != 3 ? true : false;

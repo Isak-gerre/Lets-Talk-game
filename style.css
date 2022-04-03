@@ -53,10 +53,11 @@ body {
 .category-card {
   border: 1px solid white;
   height: 40px;
-  padding: 40px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 #overlay {
   position: absolute;
@@ -110,9 +111,10 @@ body {
   background-color: #660460b3;
 }
 .questionText {
-  width: 55ch;
+  width: 40ch;
   line-height: 2.3ch;
   text-align: center;
+  font-size: 20px;
 }
 #images {
   display: grid;
